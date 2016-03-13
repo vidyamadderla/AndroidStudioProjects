@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#000000"
+    tools:context="com.example.android.fortune.MainActivity">
+<ImageView
+    android:id="@+id/backgroundimage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/fortune"
+    android:scaleType="centerCrop" />
+<EditText
+    android:id="@+id/user_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:hint="@string/user_name"
+    android:maxLength="20"
+    android:inputType="textCapWords"
+    style="@style/Content"
+    android:layout_below="@+id/backgroundimage"/>
+    <Button
+        android:id="@+id/noun_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:layout_margin="16dp"
+        style="@style/Button"
+        android:layout_below="@+id/user_name"/>
+
+</RelativeLayout>

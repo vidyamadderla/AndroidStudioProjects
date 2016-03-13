@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Fortune</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Please enter Name</string>
+    <string name="button">Submit</string>
+
+
+    <string-array name="pickLine">
+        <item>is a nice person</item>
+        <item>is the one you like most</item>
+        <item>is lucky</item>
+        <item>is an idiot</item>
+        <item>is your secret fan</item>
+        <item>is a muscian</item>
+        <item>always wants to eat</item>
+        <item>is a good person</item>
+        <item>is full of emotions</item>
+        <item>is so stupid</item>
+        <item>has low IQ</item>
+        <item>has to study harder inorder to pass in exam</item>
+        <item>will visit London next year</item>
+        <item>will be promoted</item>
+        <item>will get to know more about partner</item>
+        <item>can never be astronaut</item>
+        <item>is a democratic candidate</item>
+        <item>is so annoying</item>
+        <item>will be your enemy</item>
+        <item>is the most disgusting person in the world</item>
+
+    </string-array>
+</resources>
